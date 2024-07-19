@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    color: white;
+}
+body{
+    background-color: black;
+}
+.text-stroke-green {
+   color: black; /* Set the text color */
+    -webkit-text-stroke: 2px hsl(120, 100%, 50%); /* Set the stroke width and green color */
+    text-stroke: 2px #00FF00;
+  }
+  
